@@ -9,7 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Excecoes\" />
+    <Compile Remove="Excecoes\**" />
+    <EmbeddedResource Remove="Excecoes\**" />
+    <None Remove="Excecoes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Servicos\" />
     <Folder Include="Repositorios\" />
   </ItemGroup>
