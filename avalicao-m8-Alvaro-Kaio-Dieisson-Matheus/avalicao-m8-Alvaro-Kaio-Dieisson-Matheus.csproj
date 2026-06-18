@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Excecoes\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Servicos\" />
     <Folder Include="Repositorios\" />
   </ItemGroup>
