@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.Modelos
 {
-    class ModelosLivros
+    class Livros
     {
 
 
@@ -21,7 +21,7 @@ namespace avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.Modelos
         public bool Disponivel { get; set; }
 
 
-        public Livro(int id, string titulo, string autor, int ano, bool disponivel)
+        public Livros(int id, string titulo, string autor, int ano, bool disponivel)
 
         {
 
