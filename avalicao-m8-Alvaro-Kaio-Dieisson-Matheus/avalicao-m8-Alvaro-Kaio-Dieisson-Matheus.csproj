@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <Folder Include="Servicos\" />
-    <Folder Include="Repositorios\" />
   </ItemGroup>
 
 </Project>
