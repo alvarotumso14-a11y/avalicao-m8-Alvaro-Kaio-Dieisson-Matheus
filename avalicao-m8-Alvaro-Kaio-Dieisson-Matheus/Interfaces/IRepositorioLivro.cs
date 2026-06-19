@@ -9,13 +9,13 @@ namespace avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.Interfaces
     public interface IRepositorioLivro
     {
         {
-        void Adicionar(Livro L);
+        void Adicionar(Livros L);
 
-        List<Livro> ListarTodos();
+        List<Livros> ListarTodos();
 
-        List<Livro> BuscarPorAutor(string autor);
+        List<Livros> BuscarPorAutor(string autor);
 
-        public Livro BuscarPorId(int id);
+        public Livros BuscarPorId(int id);
     }
 
 }
