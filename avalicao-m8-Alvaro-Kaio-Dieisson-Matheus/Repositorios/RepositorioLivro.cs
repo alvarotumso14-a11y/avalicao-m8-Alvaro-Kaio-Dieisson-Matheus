@@ -7,29 +7,29 @@ using System.Threading.Tasks;
 
 namespace avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.Repositorios
 {
-        {
-        private List<Livros> Livros = new();
+    
+    public List<Livro> Livros = new();
 
-    public void Adicionar(Livros L)
+    public void Adicionar(Livro L)
     {
         Livros.add(L);
     }
 
-    public List<Livros> ListarTodos()
+    public List<Livro> ListarTodos()
     {
-        return Livros;
+        return Livro;
     }
 
-    public List<Livros> BuscarPorAutor(string autor)
+    public List<Livro> BuscarPorAutor(string autor)
     {
-        return Livros
+        return Livro
             .Where(p => p.Autor == autor)
             .ToList();
     }
 
     public Livro BuscarPorId(int id)
     {
-        var livro = Livros.FirstOrDefault(p => p.Id == id);
+        var livro = Livro.FirstOrDefault(p => p.Id == id);
         return livro ?? throw new LivroNaoEncontradoExceptio($"Id {id} nao encontrado");
     }
 
